@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+.header-menu ul {
+    display: flex;
+    margin: 25px 0;
+}
+.header-menu ul li a{
+    margin-left: 50px;
+    color: #000;
+    font-family: "Noto Sans Javanese";
+    font-size: 18px;
+    font-weight: 700;
+}
+.header-menu ul li a:hover{
+    color: #1E16CC;
+    font-family: "Noto Sans Javanese";
+    font-size: 18px;
+    font-weight: 700;
+    transition: .5s;
+}
+.header-contact{
+    margin: 10px 0;
+}
+.header-contact h2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5px;
+}
+.header-contact h2 a{
+    color: #000;
+    font-family: "Noto Sans Javanese", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-1 img{
+    width: 99.9%;
+    height: 99.9%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.main-2{
+    width: 100%;
+}
+
+.infos{
+    margin: 50px 0;
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    height: 586px;
+    object-fit: cover;
+}
+
+.info h1{
+    color: #1E16CC;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 40px;
+    font-weight: 900;
+}
+.line{
+    width: 459.863px;
+    height: 3px;
+    background: #1E16CC;
+    margin: 50px 0;
+}
+.info p{
+    width: 564.658px;
+    color: #000;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 34px;
+    font-weight: 500;
+}
+#footer{
+    background: #1E16CC;
+    width: 100%;
+    height: 840px;
+}
+.footer{
+    padding: 87px 0;
+}
+.footer-infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.info span{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: "Zen Kaku Gothic New";
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.copyright h2{
+    color: #FFF;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 46px ;
+}
+
+@media (max-width: 567px) {
+    /* Хэдердин менюсуну адап кыла албадым, иконка кылып))) */
+    
+    .header{
+        width: 567px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .infos{
+        width: 567px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 10px;
+    }
+    .infos img{
+        display: none;
+    }
+    .info p {
+        width: 564.658px;
+        color: #000;
+        font-family: "Zen Kaku Gothic New";
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .info h1 {
+        color: #1E16CC;
+        font-family: "Zen Kaku Gothic New";
+        font-size: 30px;
+        font-weight: 900;
+    }
+        .infos {
+            gap: 0;
+        }
+    .line {
+        width: 293.863px;
+        height: 3px;
+        background: #1E16CC;
+        margin: 50px 0;
+    }
+    .footer-infos{
+        max-width: 567px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .info span {
+        display: flex;
+        flex-direction: column;
+        color: #FFF;
+        font-family: "Zen Kaku Gothic New";
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .map iframe{
+        width: 567px;
+    }
+    #footer{
+        height: 1210px;
+        width: 100%;
+        background:#1E16CC;
+    }
+    .copyright h2 {
+        color: #FFF;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
